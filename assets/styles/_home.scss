@@ -1,0 +1,28 @@
+#home {
+  display: flex;
+  padding: 5.6vw;
+  background: url("../img/home-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: 100% 00px;
+  
+
+  .home-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+      width: 320/16 + rem;
+    }
+
+    .btn-choose-plan {
+      background-color: $btnColor;
+      height: 68px;
+      border-radius: 4px;
+      font-size: 18/16 + rem;
+      max-width: 700px;
+      width: 100%;
+    }
+  }
+}

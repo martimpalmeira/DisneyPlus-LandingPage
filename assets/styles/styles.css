@@ -1,0 +1,106 @@
+.nav-container {
+  padding: 0 36px;
+  height: 70px;
+}
+
+.nav-container .nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.nav-container .nav-bar .logo {
+  width: 80px;
+  margin-left: 14px;
+}
+
+.nav-container .nav-bar button {
+  height: 50px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+
+.nav-container .nav-bar .btn-subscribe {
+  background-color: #0063e5;
+  padding: 8px 14px;
+  margin-right: 5px;
+}
+
+.nav-container .nav-bar .btn-subscribe:hover {
+  background-color: #0a6def;
+}
+
+.nav-container .nav-bar .btn-login {
+  background-color: black;
+  border: 1px solid silver;
+  padding: 8px 16px;
+  margin-left: 5px;
+}
+
+.nav-container .nav-bar .btn-login:hover {
+  background-color: white;
+  color: black;
+}
+
+#home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5.6vw;
+  background: url("../img/home-background.jpeg");
+  background-repeat: no-repeat;
+  background-position: 100% 00px;
+}
+
+#home .home-left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home .home-left .logo {
+  width: 20rem;
+}
+
+#home .home-left .btn-choose-plan {
+  background-color: #6421ff;
+  height: 68px;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  max-width: 700px;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+/*# sourceMappingURL=styles.css.map */
