@@ -1,0 +1,43 @@
+#series{
+    padding: 30px 50px;
+
+    .series-titles{
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+        margin-bottom: 70px;
+
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                font-size: 20/16 + rem;
+                position: relative;
+            }
+        }
+
+        #series-title-1{
+            &::after{
+                content: '';
+                height: 5px;
+                background-color: white;
+                width: 100%;
+                position: absolute;
+                bottom: -13px;
+                left: 0;
+            }
+        }
+    }
+
+    .comming-soon{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 24px;
+
+        img{
+            width: 100%;
+            border-radius: 4px;
+        }
+    }
+}

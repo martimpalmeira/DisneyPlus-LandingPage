@@ -1,0 +1,36 @@
+#watch-it-your-way{
+    padding: 5.6vw;
+
+    .content{
+        display: flex;
+       
+
+        .img-container{
+            width: 50%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .text-content{
+            width: 50%;
+            padding: 0 2vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            h2{
+                font-size: 40/16 + rem;
+                line-height: 50px;
+                margin-bottom: 16px;
+            }
+
+            p{
+                font-size: 20/16 + rem;
+                line-height: 30px;
+                color: silver;
+            }
+        }
+    }
+}

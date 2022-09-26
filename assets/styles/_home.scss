@@ -1,28 +1,60 @@
 #home {
   display: flex;
+  align-items: center;
   padding: 5.6vw;
-  background: url("../img/home-background.jpeg");
+  background: url("../img/home/home-background-large.jpeg");
   background-repeat: no-repeat;
-  background-position: 100% 00px;
+  background-size: cover;
+  background-position-x: 0;
+  background-position-y: 0;
+  height: auto;
+  min-height: 85vh;
   
-
-  .home-left {
+  .home-left-container{
     width: 50%;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    height: 100%;
+    max-width: 640px;
 
-    .logo {
-      width: 320/16 + rem;
-    }
-
-    .btn-choose-plan {
-      background-color: $btnColor;
-      height: 68px;
-      border-radius: 4px;
-      font-size: 18/16 + rem;
-      max-width: 700px;
+    .home-left-main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
       width: 100%;
+     
+
+      h1{
+        margin-top: -5px;
+        margin-bottom: 20px;
+      }
+
+      img{
+        margin-bottom: 16px;
+      }
+  
+      .logo {
+        width: 320/16 + rem;
+      }
+  
+      
     }
   }
+
+}
+
+.btn-choose-plan {
+  background-color: $btnColor;
+  height: 68px;
+  border-radius: 4px;
+  font-size: 18/16 + rem;
+  max-width: 700px;
+  width: 100%;
+
+  &:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
+  
 }

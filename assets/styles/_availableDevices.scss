@@ -1,0 +1,39 @@
+#available-devices{
+    padding: 5.6vw;
+
+    h2{
+        text-align: center;
+        font-size: 40/16 + rem;
+        margin-bottom: 25px;
+    }
+    .devices-container{
+        display: flex;
+        justify-content: space-around;
+        gap: 24px;
+
+        .device{
+
+            img{
+                width: 100%;
+            }
+
+            h3{
+                text-align: center;
+                font-size: 28/16 + rem;
+                line-height: 38px;
+                margin: 20px 0;
+            }
+
+            ul{
+
+                li{
+                    list-style: none;
+                    text-align: center;
+                    color: silver;
+                    font-size: 18/16 + rem;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}

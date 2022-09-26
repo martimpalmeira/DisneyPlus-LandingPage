@@ -1,6 +1,17 @@
-@import "./_variables.scss";
+$primaryBtnColor:#0063e5; 
+$btnColor:rgb(100, 33, 255);
+
 @import "./_header.scss";
 @import "./_home.scss";
+@import "./_series.scss";
+@import "./_chooseYourPlan.scss";
+@import "./_watchYourWay.scss";
+@import "./_downloadMovies.scss";
+@import "./_availableDevices.scss";
+@import "./_commonQuestions.scss";
+@import "./_footer.scss";
+
+
 
 *{
     margin: 0;
@@ -12,7 +23,7 @@
 }
 
 body{
-    background-color: black;
-    
+    background-color: rgb(4, 8, 20);
+    line-height: 30px;
 }
 

@@ -1,0 +1,103 @@
+.footer-container {
+  padding: 26px 8px;
+  font-size: 12/16 + rem;
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 80px;
+    }
+
+    .links-container {
+      display: flex;
+      margin: 4px auto 15px auto;
+
+      .selector-container {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+
+        select {
+          -moz-appearance: none; /* Firefox */
+          -webkit-appearance: none; /* Safari and Chrome */
+          appearance: none;
+          width: 108px;
+          background-color: transparent;
+          margin: 0 8px;
+          color: silver;
+          text-align: center;
+          height: 24px;
+          background-image: url(../img/footer/web-icon.png);
+          background-position: 5px;
+          background-size: 18px;
+          background-repeat: no-repeat;
+          font-size: 12/16 + rem;
+          position: relative;
+          cursor: pointer;
+
+          &:hover {
+            color: white;
+            text-decoration: underline;
+
+          }
+        }
+
+        .dropdown-icon {
+
+          &::after {
+            content: "";
+            height: 1px;
+            width: 9px;
+            background-color: silver;
+            position: absolute;
+            right: 13px;
+            top: 50%;
+            rotate: -45deg;
+          }
+
+          &::before {
+            content: "";
+            height: 1px;
+            width: 9px;
+            background-color: silver;
+            position: absolute;
+            top: 50%;
+            right: 19px;
+            rotate: 45deg;
+            
+          }
+
+
+        }
+      }
+
+      ul {
+        display: flex;
+        li {
+          list-style: none;
+
+          a {
+            text-decoration: none;
+            padding: 8px 12px;
+            font-size: 12/16 + rem;
+            color: silver;
+
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      text-align: center;
+      color: silver;
+      line-height: 22px;
+      margin-bottom: 20px;
+    }
+  }
+}
