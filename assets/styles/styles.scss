@@ -23,7 +23,12 @@ $btnColor:rgb(100, 33, 255);
 }
 
 body{
-    background-color: rgb(4, 8, 20);
+    background-color: #040814;
     line-height: 30px;
+    letter-spacing: .2px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 

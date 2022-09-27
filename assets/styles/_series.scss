@@ -1,32 +1,17 @@
 #series{
-    padding: 30px 50px;
+    padding: 5.6vw;
 
-    .series-titles{
-        display: flex;
-        justify-content: center;
-        column-gap: 30px;
-        margin-bottom: 70px;
+    h2{
+        text-align: center;
+        font-size: 40/16 + rem;
+        margin-bottom: 24px;
+    }
 
-        li{
-            list-style: none;
-            a{
-                text-decoration: none;
-                font-size: 20/16 + rem;
-                position: relative;
-            }
-        }
-
-        #series-title-1{
-            &::after{
-                content: '';
-                height: 5px;
-                background-color: white;
-                width: 100%;
-                position: absolute;
-                bottom: -13px;
-                left: 0;
-            }
-        }
+    p{
+        text-align: center;
+        color: silver;
+        margin-bottom: 20px;
+        font-size: 20/16 + rem;
     }
 
     .comming-soon{

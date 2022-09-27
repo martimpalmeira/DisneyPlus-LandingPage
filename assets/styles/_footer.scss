@@ -41,12 +41,10 @@
           &:hover {
             color: white;
             text-decoration: underline;
-
           }
         }
 
         .dropdown-icon {
-
           &::after {
             content: "";
             height: 1px;
@@ -67,10 +65,7 @@
             top: 50%;
             right: 19px;
             rotate: 45deg;
-            
           }
-
-
         }
       }
 
