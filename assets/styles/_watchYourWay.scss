@@ -34,3 +34,24 @@
         }
     }
 }
+
+@media screen and (max-width: 1025px) {
+    
+    #watch-it-your-way{
+        padding: 10vw 5vw;
+
+        .content{
+
+            .text-content{
+
+                h2{
+                    font-size: 28/16 + rem;
+                }
+
+                p{
+                    font-size: 18/16 + rem;
+                }
+            }
+        }
+    }
+}

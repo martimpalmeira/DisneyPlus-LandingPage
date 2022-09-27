@@ -3,7 +3,7 @@
 
   h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
     font-size: 40/16 + rem;
   }
 
@@ -94,6 +94,27 @@
       padding-bottom: 24px;
 
     
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  #common-questions{
+    padding: 10vw 5vw;
+
+    h2{
+      font-size: 28/16 + rem;
+      margin-bottom: 16px;
+    }
+
+    .question{
+      
+      .question-title{
+
+        h3{
+          font-size: 18/16 + rem;
+        }
+      }
     }
   }
 }

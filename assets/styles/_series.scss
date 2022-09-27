@@ -26,3 +26,18 @@
         }
     }
 }
+
+@media screen and (max-width: 1025px) {
+    #series{
+        padding: 10vw 5vw;
+
+        h2{
+            font-size: 28/16 + rem;
+            margin-bottom: 16px;
+        }
+
+        p{
+            font-size: 18/16 + rem;
+        }
+    }
+}

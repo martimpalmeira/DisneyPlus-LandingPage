@@ -4,12 +4,13 @@
     h2{
         text-align: center;
         font-size: 40/16 + rem;
-        margin-bottom: 25px;
+        margin-bottom: 24px;
     }
     .devices-container{
         display: flex;
         justify-content: space-around;
         gap: 24px;
+        margin: 20px 0px;
 
         .device{
 
@@ -21,7 +22,7 @@
                 text-align: center;
                 font-size: 28/16 + rem;
                 line-height: 38px;
-                margin: 20px 0;
+                margin: 20px 0px 24px 0;
             }
 
             ul{
@@ -32,6 +33,35 @@
                     color: silver;
                     font-size: 18/16 + rem;
                     line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    #available-devices{
+        padding: 10vw 5vw;
+
+        h2{
+            font-size: 28/16 + rem;
+            margin-bottom: 16px;
+        }
+
+        .devices-container{
+
+            .device{
+
+                h3{
+                    font-size: 24/16 + rem;
+                    margin-bottom: 16px;
+                }
+
+                ul{
+
+                    li{
+                        font-size: 1rem;
+                    }
                 }
             }
         }

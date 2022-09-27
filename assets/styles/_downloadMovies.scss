@@ -26,7 +26,7 @@
         
             h2{
                 line-height: 34px;
-                margin-bottom: 16px;
+                margin-bottom: 24px;
                 font-size: 28/16 + rem;
             }
         
@@ -39,4 +39,25 @@
           }
     }
   
+}
+
+@media screen and (max-width:1025px){
+  #download-movies{
+    padding: 10vw 5vw;
+
+    .content{
+
+      .text-content{
+
+        h2{
+          font-size: 24/16 + rem;
+          margin-bottom: 16px;
+        }
+
+        p{
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
