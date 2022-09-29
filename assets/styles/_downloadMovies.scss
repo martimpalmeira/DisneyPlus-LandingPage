@@ -1,61 +1,83 @@
 #download-movies {
   padding: 5.6vw;
-  
- 
 
-    .content{
-        position: relative;
-        width: 100%;
+  .content {
+    position: relative;
+    width: 100%;
 
-        .lion-king-img {
-            width: 100%;
-            display: flex;
-            align-items: center;
-          }
-        
-          .text-content {
-            position: absolute;
-            right: 0;
-            width: 50%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            top:0;
-            padding: 0 2vw;
-        
-            h2{
-                line-height: 34px;
-                margin-bottom: 24px;
-                font-size: 28/16 + rem;
-            }
-        
-            p{
-                line-height: 26px;
-                color: silver;
-                margin-bottom: 20px;
-                font-size: 18/16 + rem;
-            }
-          }
+    .lion-king-img {
+      content: url("../img/downloadMovies/reiLeao-lg.png");
+      width: 100%;
+      display: flex;
+      align-items: center;
     }
-  
+
+    .text-content {
+      position: absolute;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      top: 0;
+      padding: 0 2vw;
+
+      h2 {
+        line-height: 34px;
+        margin-bottom: 24px;
+        font-size: 28/16 + rem;
+      }
+
+      p {
+        line-height: 26px;
+        color: silver;
+        margin-bottom: 20px;
+        font-size: 18/16 + rem;
+      }
+    }
+  }
 }
 
-@media screen and (max-width:1025px){
-  #download-movies{
+@media screen and (max-width: 1025px) {
+  #download-movies {
     padding: 10vw 5vw;
 
-    .content{
-
-      .text-content{
-
-        h2{
+    .content {
+      .text-content {
+        h2 {
           font-size: 24/16 + rem;
           margin-bottom: 16px;
         }
 
-        p{
+        p {
           font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #download-movies {
+    .content{
+
+      .lion-king-img{
+        content: url("../img/downloadMovies/reiLeao-md.png");
+        margin-bottom: 20px;
+      }
+
+      .text-content{
+        position: static;
+        width: 100%;
+        text-align: center;
+
+        h2{
+          font-size: 22/16 + rem;
+        }
+
+        p{
+          font-size: 15/16 + rem;
         }
       }
     }

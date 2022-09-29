@@ -22,6 +22,13 @@
       margin-left: 14px;
       opacity: 0;
       transition: 1s ease;
+      
+    }
+
+    .btn-container{
+     
+      display: flex;
+      justify-content: space-between;
     }
 
     button {
@@ -63,4 +70,62 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav-container{
+    padding: 0 12px 0 20px;
 
+    .nav-bar{
+      
+      .logo{
+        width: 64px;
+      }
+
+      button{
+        height: 40px;
+        font-size: 15px;
+      }
+
+      .btn-subscribe {
+        padding: 8px 12px;
+        margin: 5px;
+      }
+
+      .btn-login{
+        padding: 8px;
+        margin: 5px;
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-container{
+    height: 52px;
+   
+    .nav-bar{
+
+      button{
+        height: 40px;
+        font-size: 13/16 + rem;
+      }
+
+      .btn-login{
+        margin-right: 0;
+      }
+
+    }
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  .nav-container{
+    padding: 0 8px 0 10px;
+
+    .nav-bar{
+
+      
+    }
+  }
+}

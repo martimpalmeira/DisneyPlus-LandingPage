@@ -7,6 +7,8 @@ const btnSubscribe = document.querySelector('.btn-subscribe');
 
 export function init() {
 
+    handleWindowScrollHeader();
+
     window.addEventListener('scroll', () => {
         handleWindowScrollHeader();
        

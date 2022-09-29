@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,iBAAiB,CAAA;EACb,OAAO,EAAE,KAAK;CACjB",
-    "sources": [
-        "commonQuestions.scss"
-    ],
-    "names": [],
-    "file": "commonQuestions.css"
-}

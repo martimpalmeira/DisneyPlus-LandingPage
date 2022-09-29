@@ -55,3 +55,36 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    #watch-it-your-way{
+
+        .content{
+            flex-direction: column;
+    
+            .img-container{
+                width: 100%;
+    
+                img{
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .text-content{
+                text-align: center;
+                width: 100%;
+
+                h2{
+                    margin-bottom: 16px;
+                    font-size: 24/16 + rem;
+                }
+
+                p{
+                    margin-bottom: 20px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

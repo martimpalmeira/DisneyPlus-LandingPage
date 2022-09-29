@@ -1,6 +1,6 @@
 #available-devices{
     padding: 5.6vw;
-
+   
     h2{
         text-align: center;
         font-size: 40/16 + rem;
@@ -61,6 +61,39 @@
 
                     li{
                         font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    #available-devices{
+
+        h2{
+            font-size: 24/16 + rem;
+        }
+
+        .devices-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+
+            .device{
+
+                h3{
+                    font-size: 22/16 + rem;
+                }
+
+                ul{
+
+                    li{
+
+                        a{
+                            font-size: 15/16 + rem;
+                        }
                     }
                 }
             }

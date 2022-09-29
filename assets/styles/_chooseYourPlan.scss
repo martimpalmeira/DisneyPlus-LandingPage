@@ -46,6 +46,11 @@
       .btn-choose-plan{
         margin-top: 24px;
         margin-bottom: 0px;
+        height: 60px;
+        padding: 16.5px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
@@ -61,6 +66,10 @@
     font-size: 12px;
     color: silver;
   }
+}
+
+#choose-your-plan:target{
+  scroll-margin-top: 50px;
 }
 
 @media screen and (max-width: 1025px) {
@@ -88,3 +97,47 @@
     }
   }
 }
+
+@media screen and (max-width: 818px) {
+  .plans-container{
+    flex-wrap: wrap;
+
+    .plan:not(:first-child){
+      margin-top: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #choose-your-plan{
+    h2{
+      font-size: 26/16 + rem;
+    }
+
+    .plans-container{
+
+      .plan{
+
+        h3{
+          font-size: 22/16 + rem;
+        }
+
+        p{
+          font-size: 15/16 + rem;
+        }
+
+        .btn-choose-plan{
+          font-size: 15/16 + rem;
+          height: 50px;
+
+        }
+
+        .price-vary {
+          font-size: 11/16 + rem;
+        }
+      }
+    }
+  }
+}
+
+

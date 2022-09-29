@@ -152,3 +152,35 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  #home{
+    padding: 50vw 5vw 20vw;
+
+    .home-left-container{
+      max-width: 500px;
+      padding-top: 20px;
+
+      .home-left-main{
+
+        h1{
+          font-size: 22/16 + rem;
+        }
+
+         .logo{
+          width: 180px;
+        }
+
+        .btn-choose-plan {
+          height: 50px;
+          padding: 11.5px 24px;
+          font-size: 15px;
+        }
+
+        .dropdown-link{
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
