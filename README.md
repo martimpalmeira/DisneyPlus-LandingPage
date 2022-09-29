@@ -28,7 +28,8 @@
 </p>
 
 <p align="center">
-<img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/letsfood-apresentacao.gif?raw=true" alt="application-gif">
+<img width="75%" align="left" src="https://github.com/martimpalmeira/Disney-Plus/blob/main/assets/img/desktop-disney+.gif?raw=true" alt="application-gif">
+<img width="25%" src="https://github.com/martimpalmeira/Disney-Plus/blob/main/assets/img/Design%20sem%20nome.gif?raw=true" alt="application-gif">
 </p>
 
 # 📌 Topics
@@ -47,12 +48,12 @@
 > This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with HTML5, CSS3 and JavaScript ES6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service.
 
 <p align="center">
-<img width="100%" src="https://github.com/martimpalmeira/TesteGit/blob/main/Captura%20de%20Tela%202022-09-18%20a%CC%80s%2015.33.19.png?raw=true" >
+<img width="100%" src="https://github.com/martimpalmeira/Disney-Plus/blob/main/assets/img/home/home-background-lg.jpeg?raw=true" >
 </p>
 
-<a href="https://lets-food.netlify.app/"> `Let's Food Deployment` </a>
+<a href="https://www.disneyplus.com/en-br"> `Original Disney+ page` </a>
 
-<a text-align="center" align="center" href="https://www.figma.com/file/vXZNcle5g3b9icZE3RLuVN/Let's-Food-UI-Kit---Landing-Page-(Community)?node-id=203%3A134"> `Let's Food UI Kit` </a>
+<a text-align="center" align="center" href="disneyplus-cloned.netlify.app/"> `Cloned Disney+ page` </a>
 
 # 🚀 Technologies
 
