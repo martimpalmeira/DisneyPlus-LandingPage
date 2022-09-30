@@ -3,19 +3,19 @@
 
 <p align="center">
 
-<a  href="https://app.netlify.com/sites/lets-food/deploys">
-<img alt="Netlify" src="https://img.shields.io/badge/Status-Active-00C7B7?style=for-the-badge&logo=Netlify">
+
+<img alt="Netlify" src="https://img.shields.io/netlify/e42a60b3-c8b0-4158-b6eb-ea473d3046b8?color=00C7B7&logo=Netlify&style=for-the-badge">
+
+
+<a  href="https://github.com/martimpalmeira/Disney-Plus/blob/main/LICENCE">
+<img alt="GitHub" src="https://img.shields.io/github/license/martimpalmeira/Disney-Plus?color=61ca2f&style=for-the-badge">
 </a>
 
-<a  href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">
-<img src="https://img.shields.io/github/license/martimpalmeira/Lets-Food?style=for-the-badge" alt="Licence">
+<a href="https://github.com/martimpalmeira/Disney-Plus/issues">
+<img alt="GitHub issues" src="https://img.shields.io/github/issues/martimpalmeira/Disney-Plus?style=for-the-badge">
 </a>
 
-<a href="https://github.com/martimpalmeira/Lets-Food/issues">
-<img alt="GitHub issues" src="https://img.shields.io/github/issues/martimpalmeira/Lets-Food?color=green&style=for-the-badge">
-</a>
-
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Lets-Food?color=blue&style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Disney-Plus?style=for-the-badge">
 
 </p>
 
@@ -78,6 +78,6 @@ The following tools were used in building the project:
 
 # 📑 Licence
 
-This project is under license. See the <a href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">MIT LICENSE</a> file for more details.
+This project is under license. See the <a href="https://github.com/martimpalmeira/Disney-Plus/blob/main/LICENCE">MIT LICENSE</a> file for more details.
 
 <a href="#-i-s-n-e-y-">Back to top</a>
