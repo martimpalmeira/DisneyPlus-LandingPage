@@ -15,15 +15,7 @@
 <img alt="GitHub issues" src="https://img.shields.io/github/issues/martimpalmeira/Lets-Food?color=green&style=for-the-badge">
 </a>
 
-<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martimpalmeira/Lets-Food?style=for-the-badge">
-
-<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/martimpalmeira/Lets-Food?style=for-the-badge">
-
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/martimpalmeira/Lets-Food?color=red&logo=GitHub&style=for-the-badge">
-
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martimpalmeira/Lets-Food?color=red&logo=git&style=for-the-badge">
-
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Lets-Food?color=orange&style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/martimpalmeira/Lets-Food?color=blue&style=for-the-badge">
 
 </p>
 
@@ -45,22 +37,23 @@
 
 # 📄 Description
 
-> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with HTML5, CSS3 and JavaScript ES6 technologies. As a layout reference, a design made by Rauliqbal was used. The project consists of a landing page for a restaurant that provides delivery service.
 
-<p align="center">
-<img width="100%" src="https://github.com/martimpalmeira/Disney-Plus/blob/main/assets/img/home/home-background-lg.jpeg?raw=true" >
-</p>
+
+> This project was developed with the aim of applying and improving knowledge in the fundamentals of front end development of web applications with HTML5, CSS preprocessor SASS and JavaScript ES6 technologies. The project consists of a clone of the Disney+ streaming service homepage.
+
+<img align="center" width="100%" src="https://github.com/martimpalmeira/Disney-Plus/blob/main/assets/img/home/home-background-lg.jpeg?raw=true" >
+
 
 <a href="https://www.disneyplus.com/en-br"> `Original Disney+ page` </a>
 
-<a text-align="center" align="center" href="disneyplus-cloned.netlify.app/"> `Cloned Disney+ page` </a>
+<a text-align="center" align="center" href="https://disneyplus-cloned.netlify.app/"> `Cloned Disney+ page` </a>
 
 # 🚀 Technologies
 
 The following tools were used in building the project:
 
 - [Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Sass](https://sass-lang.com/)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -68,10 +61,9 @@ The following tools were used in building the project:
 
 <pre>
 ✔️ Responsiveness Design
-✔️ Modal implementation
-✔️ Mobile Menu
-✔️ Animations with KeyFrames
-✔️ Carousel Slider
+✔️ Questions accordion effect
+✔️ Scroll smooth 
+✔️ NavBar animation
 ✔️ Grid-Template properties
 ✔️ Flexbox properties
 </pre>
@@ -88,4 +80,4 @@ The following tools were used in building the project:
 
 This project is under license. See the <a href="https://github.com/martimpalmeira/Lets-Food/blob/main/LICENSE">MIT LICENSE</a> file for more details.
 
-<a href="#lets-food-">Back to top</a>
+<a href="#-i-s-n-e-y-">Back to top</a>
